@@ -8,7 +8,7 @@ def my_select(collection)
       
       if 
         yield(collection[i]) 
-        new_array.push(yield(collection[i])) 
+        new_array.push(collection[i])
       end
      i += 1
     end
