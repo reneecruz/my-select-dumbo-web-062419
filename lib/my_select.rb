@@ -5,11 +5,11 @@ def my_select(collection)
   new_array = []
 
     while i < collection.length 
-      
+      i += 1
       if 
       new_array.push(yield(collection[i])) == true
       end
-      i += 1
+     
     end
     new_array
 end
