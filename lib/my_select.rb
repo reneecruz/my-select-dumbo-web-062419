@@ -6,8 +6,8 @@ def my_select(collection)
 
     while i < collection.length 
       
-      if 
-      new_array.push(yield(collection[i])) == true
+      if yield(collection[i])) 
+      new_array.push(yield(collection[i])) 
       end
      i += 1
     end
