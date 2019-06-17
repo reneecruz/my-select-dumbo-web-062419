@@ -7,7 +7,7 @@ def my_select(collection)
     while i < collection.length 
       
       if 
-        yield(collection[i])) == true
+        yield(collection[i]))
       new_array.push(yield(collection[i])) 
       end
      i += 1
